@@ -1,0 +1,586 @@
+@charset "utf-8";
+@font-face{
+	font-family: SalonFont;
+	src:url(../font/MSMINCHO.TTF);
+	src:url(../font/urwclassicot.ttf);
+}
+/* CSS Document */
+body{
+	background:#FFF;
+	margin:0;
+	font-family:SalonFont;
+}
+/* header block */
+header{
+	margin:0 auto;
+	width:1000px;
+	height:139px;
+	margin-top:77px;
+}
+header .logo{
+	float:left;
+	width:272px;
+	height:88px;
+	background-image:url(../images/logo.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+header .block-menu{
+	float:right;
+	width:600px;
+	padding-top:50px;
+	margin-left:20px;
+}
+header .block-menu ul{
+	float:right;
+	margin:0;
+	padding:0;
+	list-style:none;
+	background-image:url(../images/menu-bg.png);
+}
+header .block-menu ul li{
+	display:inline;
+	height:36px;
+	padding:10px;
+	text-align:center;
+}
+header .block-menu ul li a{
+	display:inline-block;
+	height:36px;
+}
+header .block-menu ul li a.menu-home{
+	width:58px;
+	background-image:url(../images/home.png);
+	background-position:top;
+	background-repeat:no-repeat;
+}
+header .block-menu ul li a.menu-home:hover{
+	width:58px;
+	background-image:url(../images/home.png);
+	background-position:bottom;
+	background-repeat:no-repeat;
+}
+header .block-menu ul li a.menu-concept{
+	width:84px;
+	background-image:url(../images/concept.png);
+	background-position:top;
+	background-repeat:no-repeat;
+}
+header .block-menu ul li a.menu-concept:hover{
+	width:84px;
+	background-image:url(../images/concept.png);
+	background-position:bottom;
+	background-repeat:no-repeat;
+}
+header .block-menu ul li a.menu-menu{
+	width:58px;
+	background-image:url(../images/menu.png);
+	background-position:top;
+	background-repeat:no-repeat;
+}
+header .block-menu ul li a.menu-menu:hover{
+	width:58px;
+	background-image:url(../images/menu.png);
+	background-position:bottom;
+	background-repeat:no-repeat;
+}
+header .block-menu ul li a.menu-access{
+	width:71px;
+	background-image:url(../images/access.png);
+	background-position:top;
+	background-repeat:no-repeat;
+}
+header .block-menu ul li a.menu-access:hover{
+	width:71px;
+	background-image:url(../images/access.png);
+	background-position:bottom;
+	background-repeat:no-repeat;
+}
+header .block-menu ul li a.menu-recruit{
+	width:64px;
+	background-image:url(../images/recruit.png);
+	background-position:top;
+	background-repeat:no-repeat;
+}
+header .block-menu ul li a.menu-recruit:hover{
+	width:64px;
+	background-image:url(../images/recruit.png);
+	background-position:bottom;
+	background-repeat:no-repeat;
+}
+header .block-menu ul li a.menu-contact{
+	width:77px;
+	background-image:url(../images/contact.png);
+	background-position:top;
+	background-repeat:no-repeat;
+}
+header .block-menu ul li a.menu-contact:hover{
+	width:77px;
+	background-image:url(../images/contact.png);
+	background-position:bottom;
+	background-repeat:no-repeat;
+}
+
+/* Slider */
+.block-slider{
+	width:auto;
+	height:600px;
+	background-image:url(../images/slider.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	margin-bottom:140px;
+}
+/* slider */
+section{
+	width:1000px;
+	height:auto;
+	margin:0 auto;
+	position:relative;
+}
+section h1{
+	font-size:22pt;
+	font-weight:normal;
+	letter-spacing:2px;
+}
+section .block-info{
+	width:auto;
+	margin-top:86px;
+	text-align:center;
+	margin-bottom:140px;
+}
+section .bar-line{
+	width:1200px;
+	height:13px;
+	position:absolute;
+	background-image:url(../images/bar-style.png);
+	background-repeat:no-repeat;
+	left:-90px;
+}
+/* block news */
+section .block-news{
+	padding-top:50px;
+	padding-bottom:151px;
+}
+section .block-news h1{
+	color:#020202;
+	text-align:center;
+}
+section .block-news table td{
+	padding:10px;
+	color:#4d4c4c;
+}
+
+/* block concept */
+section .block-concept{
+	padding-top:50px;
+	padding-bottom:151px;
+	font-family:SalonFont;
+}
+section .block-concept h1{
+	font-size:28pt;
+	color:#020202;
+	text-align:center;
+}
+section .block-concept p{
+	line-height:2;
+	font-size:14pt;
+	text-align:left;
+	padding-top:10px;
+}
+section .block-concept .sign{
+	width:1000px;
+	height:auto;
+	margin-bottom:150px;
+}
+section .block-concept .sign-left{
+	float:left;
+	width:568px;
+	height:160px;
+}
+section .block-concept .sign-left p{
+	padding:0;
+	margin:0;
+}
+section .block-concept .sign-left p + p{
+	padding-top:90px;
+}
+section .block-concept .sign-center{
+	float:left;
+	margin-right:30px;
+	margin-bottom:30px;
+}
+section .block-concept .sign-right{
+	float:left;
+}
+
+/* block access */
+section .block-access{
+	padding-top:50px;
+	padding-bottom:100px;
+}
+section .block-access p{
+	font-size: 16px;
+	line-height: 30px;
+}
+section .block-access h1{
+	font-size:28pt;
+	color:#020202;
+	text-align:center;
+}
+section .block-access .content{
+	float:left;
+	padding-top: 64px;
+	width: 490px;
+	height: auto;
+}
+section .block-access .map{
+	width: 470px;
+	float:right;
+	padding-top:170px;
+}
+section .block-access .content-bottom{
+	width:1000px;
+	height:auto;
+	padding-top:20px;
+	padding-bottom:20px;
+	clear:both;
+}
+section .block-access .map-view{
+	width:auto;
+	height:auto;
+	text-align:center;
+	padding-top:100px;
+}
+section .block-access .buttom-map{
+	text-align:center;
+	width:1000px;
+	height:57px;
+	padding-top:50px;
+}
+
+/* block recruit*/
+section .block-recruit{
+	padding-top:50px;
+	padding-bottom:150px;
+}
+section .block-recruit h1{
+	font-size:28pt;
+	color:#020202;
+	text-align:center;
+}
+section .block-recruit h1 ~ h1{
+	padding-top:125px;
+	padding-bottom:97px;
+}
+section .block-recruit .recruit-info{
+	max-width:100%;
+	text-align:center;
+	margin-top:62px;
+	margin-bottom:127px;
+}
+section .block-recruit table{
+	width:855px;
+	font-weight:700;
+}
+section .block-recruit table tr{
+	display: block;
+	border-top:1px solid #000;
+	padding:10px;
+}
+section .block-recruit table .tr-border{
+	border-bottom:1px solid #000;
+}
+
+section .block-recruit table td{
+	width:258px;
+	line-height:2;
+	padding-left:57px;
+}
+section .block-recruit table td + td{
+	width:auto;
+}
+section .block-recruit .text-bottom{
+	width:auto;
+	text-align:center;
+	padding-top:60px;
+	font-weight:700;
+}
+section .block-recruit .text-bottom p{
+	padding:5px;
+}
+
+/* block contact*/
+section .block-contact{
+	padding-top:50px;
+	padding-bottom:100px;
+}
+section .block-contact h1{
+	font-size:28pt;
+	color:#020202;
+	text-align:center;
+}
+section .block-contact .content{
+	text-align:center;
+	clear:both;
+}
+section .block-contact .content .p{
+	font-size: 12px;
+}
+section .block-contact .tel {
+	text-align:center;
+	width:auto;
+}
+section .block-contact .form{
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+section .block-contact .form table{
+	width: 850px;
+	height:auto;
+	margin: 0 auto;
+	text-align:left;
+}
+section .block-contact .form table tr  td{
+	height: 65px;
+	padding-left:50px;
+	border-top: 1px solid #000;
+}
+section .block-contact .form table tr td .text1{
+	color:#d6d6d6;
+	width:230px;
+	height: 28px;
+	text-indent:13px;
+	margin-right: 12px;
+}
+section .block-contact .form table tr td .text2{
+	color:#d6d6d6;
+	width:480px;
+	height:28px;
+	text-indent:13px;
+}
+section .block-contact .form table tr td.text-style{
+	vertical-align:top;
+	padding-top:30px;
+	}
+section .block-contact .form table tr td #jumpMenu1 {
+  color:#d6d6d6;
+  width:150px;
+  height:30px;
+  margin:0 30px;
+}
+section .block-contact .form table tr td #jumpMenu2{
+	color:#d6d6d6;
+	width:64px;
+	height:30px;
+	margin-left:18px;
+	margin-right:8px;
+	margin-top:30px;
+}
+.checkbox {
+	margin:0 auto;
+	text-align:center;
+	width:850px;
+	height:54px;
+	border-top:1px solid #000;
+}
+.black-button{
+	text-align:center;
+	width:1000px;
+	height:57px;
+	margin:0 auto;
+	padding-top:30px;
+	clear:both;
+}
+
+section .block-contact .form-button-last{
+	margin:0 0 30px 0;	
+}
+
+/*block menu*/
+.bar-line{
+	width:1200px;
+	height:13px;
+	position:absolute;
+	background-image:url(../images/bar-style.png);
+	background-repeat:no-repeat;
+}
+.menu-price{
+	overflow: hidden;
+}
+.menu-price h1{
+	text-align: center;
+	font-family: "Myriad Pro";
+}
+.price-list table{
+	background: #000000;
+	color: #ffffff;
+	font-size: 25px;
+	width: 100%;
+	border: none;
+	border-collapse: collapse;
+	
+}
+.price-list table td{
+	padding: 10px 0;
+}
+.price-list td:first-child{
+	padding-left: 250px;
+}
+.price-list td:last-child{
+	padding-right: 250px;
+	text-align: right;
+}
+.price-list tr:nth-child(2){
+background: #ffffff;
+	
+}
+.price-list td{
+	padding: 0 30px 0;
+}
+
+.price-detail{
+	margin: 60px 0;
+}
+.price-detail table{
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #000000;
+}
+.price-detail td{
+	padding: 20px 30px 10px;
+	font-size: 25px;
+	border: 1px solid #000000;
+}
+.price-detail td:first-child{
+	width: 230px;
+}
+.price-detail td:last-child{
+	width: 510px;
+}
+.total-price{
+	float:right;
+	font-size: 22px;
+	list-style: none;
+	padding-right: 15px;
+	
+	margin-bottom: 60px;
+}
+.total-price li{
+	display: inline;
+	padding: 5px;
+}
+.menu-img{
+	margin: 60px 0;
+}
+
+/*head-spa*/
+.head-spa div{
+	border: 1px solid #353434;
+	font-family: "MS PMincho";
+	text-align: center;
+	margin-bottom: 80px;
+}
+.head-spa h2{
+	text-align: center;
+	margin: 40px;
+}
+.head-spa h3{
+	font-size: 22px;
+	margin: 45px 0 15px;
+}
+.head-spa p{
+	padding: 30px 115px;
+	line-height: 2;
+}
+.note{
+	
+}
+.note h2{
+	text-align: center;
+	margin: 30px 0;
+}
+.note .note-list{
+	list-style-type: none;
+}
+.note .note-list li{
+	
+	line-height: 2;
+}
+.note-list li::before{
+	content: '\2022\2002\2002\2002';
+	font-size: 12px;
+	
+}
+.treatment{
+	margin: 80px auto;
+}
+.treatment h4{
+	text-align: center;
+}
+.treatment-item{
+	margin: 40px;
+}
+.treatment-item > div:hover{
+	cursor:pointer;
+}
+treatment-flow-2, treatment-flow-3, treatment-flow-4, treatment-flow-5, treatment-flow-6{
+	display:none;
+}
+.treatment-item>div{
+	background: #000000;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px 0;
+	font-size: 24px;
+	width: 360px;
+	margin: 0 48px;
+	display: inline-block;
+}
+.treatment p{
+	text-align: center;
+	font-size: 18px;
+}
+.gift .img-gift{
+	display: block;
+	margin: auto;
+}
+.gift p{
+	text-align: center;
+}
+.gift p.alon{
+	line-height: 2;
+	padding: 30px 60px;
+}
+.p-group{
+	padding: 30px 60px;
+}
+.go-top{
+	display: block;
+	margin: 80px auto;
+}
+
+/* block footer */
+footer{
+	width:1200px;
+	height:60px;
+	margin:0 auto;
+	position:relative;
+}
+footer .footer-bg{
+	width:1200px;
+	height:13px;
+	position:absolute;
+	background-image:url(../images/bar-style.png);
+	background-repeat:no-repeat;
+}
+footer p{
+	padding-top:30px;
+	text-align:center;
+}
+.clear{
+	clear:both;
+}
+	
+	
+

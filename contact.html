@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Salon Website</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<header>
+	<div class="logo"></div>
+    <div class="block-menu">
+    	<ul>
+        	<li><a class="menu-home" href="index.html"></a></li>
+            <li><a class="menu-concept" href="concept.html"></a></li>
+            <li><a class="menu-menu" href="menu.html"></a></li>
+            <li><a class="menu-access" href="access.html"></a></li>
+            <li><a class="menu-recruit" href="recruit.html"></a></li>
+            <li><a class="menu-contact" href="contact.html"></a></li>
+        </ul>
+    </div>
+</header>
+<section>
+    <div class="bar-line"></div>
+    <div class="block-contact">
+    	<h1>Contact</h1>
+        <div class="content">
+            <h2>ご予約やご質問等、気軽にお問い合わせ下さい。</h2>
+            <p>ご予約の状況により電話に出られない場合もございますのでご了承ください。<br/>
+              お電話がつながりにくい場合は、お手数ですが下記お問い合わせフォームからご連絡くださいませ。</p>
+    		<div class="tel"><img src="images/tel.png" /></div>
+            <!-- line center-->
+        </div>
+        <div class="bar-line"></div>
+        <!-- block form table -->
+            <div class="form">
+           	       <h1>お問い合わせフォーム</h1>
+                   
+                   <table>
+                   		<tr>
+                        	<td width="167px">名前</td>
+                            <td>
+                            	<input class="text1" name="text1" type="text" placeholder="姓（例:山田）" />
+                                <input class="text1" name="text1" type="text" placeholder="名（例:太郎）" />
+                            </td>
+                        </tr>
+                        <tr>
+                        	<td>電話番号</td>
+                            <td><input class="text2" name="text2" type="text" placeholder="例:0312345678" /></td>
+                        </tr>
+                     	<tr>
+                        	<td class="text-style">ご予約日</td>
+                            <td>
+                            		<form name="form" id="form ">
+                                    		 第一希望
+                             				 <select name="jumpMenu" id="jumpMenu1" onchange="MM_jumpMenu('parent',this,0)">
+                               						 <option>1980</option>
+                              						 <option>1981</option>
+                              				</select>
+                                            年
+                                            <select name="jumpMenu" id="jumpMenu2" onchange="MM_jumpMenu('parent',this,0)">
+                               						 <option></option>
+                              				</select>
+                                            月
+                                            <select name="jumpMenu" id="jumpMenu2" onchange="MM_jumpMenu('parent',this,0)">
+                               						 <option></option>
+                              				</select>
+                                            日
+                                            
+                        			 </form>
+                                     <form name="form" id="form">
+                                     		 第一希望
+                             				 <select name="jumpMenu" id="jumpMenu1" onchange="MM_jumpMenu('parent',this,0)">
+                               						 <option>1980</option>
+                              						 <option>1981</option>
+                              				</select>
+                                            年
+                                            <select name="jumpMenu" id="jumpMenu2" onchange="MM_jumpMenu('parent',this,0)">
+                               						  <option></option>
+                              				</select>
+                                            月
+                                            <select name="jumpMenu" id="jumpMenu2" onchange="MM_jumpMenu('parent',this,0)">
+                               						  <option></option>
+                              				</select>
+                                            日
+                        			 </form>
+                                       <form name="form" id="form" class="form-button-last">
+                                       		 第一希望
+                             				 <select name="jumpMenu" id="jumpMenu1" onchange="MM_jumpMenu('parent',this,0)">
+                               						 <option>1980</option>
+                              						 <option>1981</option>
+                              				</select>
+                                            年
+                                            <select name="jumpMenu" id="jumpMenu2" onchange="MM_jumpMenu('parent',this,0)">
+                               						  <option></option>
+                              				</select>
+                                            月
+                                            <select name="jumpMenu" id="jumpMenu2" onchange="MM_jumpMenu('parent',this,0)">
+                               						  <option></option>
+                              				</select>
+                                            日
+                        			 </form>
+                                     
+                            </td>
+                        </tr>
+                        <tr>
+                        	<td>ご希望のメニュー</td>
+                            <td><input class="text2" name="text4" type="text" placeholder="例: Facial 50分" /></td>
+                        </tr>
+                        <tr>
+                        	<td>メッセージ</td>
+                            <td><input class="text2" name="text4" type="text" placeholder="例: 初回に必要な物は何ですか？" /></td>
+                        </tr>
+                        
+                   </table>
+            </div>        
+            <div class="checkbox">
+            	<p> <input name="checkbox" type="checkbox" value=""  />  内容をご確認の上チェックを入れて下さい。</p>
+            </div>  
+            <div class="black-button"><img src="images/black-button.png"></div>
+    </div>
+</section>
+<footer>
+	<div class="footer-bg"></div>
+	<p>Copyright(C) 2011 Web Design Library All Rights Reserved.</p>
+</footer>
+</body>
+</html>
